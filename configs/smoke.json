@@ -1,0 +1,16 @@
+{
+  "dev_start": "2020-01-01",
+  "dev_end": "2020-03-31",
+  "holdout_start": "2021-01-01",
+  "holdout_end": "2021-12-31",
+  "train_days": 252,
+  "valid_days": 63,
+  "test_days": 32,
+  "universe_size": 60,
+  "topk": 25,
+  "max_weight": 0.05,
+  "trees": 50,
+  "threads": 2,
+  "bootstrap_samples": 100,
+  "slippage_grid_bps": [5.0, 20.0]
+}

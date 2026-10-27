@@ -1,0 +1,22 @@
+{
+  "weight_cap_mode": "enforce",
+  "universe_size": 1800,
+  "dividend_tax": true,
+  "feature_set": "v04",
+  "label_mode": "neutral_rank",
+  "models": [
+    "ridge",
+    "lightgbm"
+  ],
+  "policies": [
+    "mvo"
+  ],
+  "initial_cash": 500000000.0,
+  "fill_price": "vwap30",
+  "participation_basis": "first30",
+  "impact_coefficient": 1.0,
+  "slippage_grid_bps": [
+    0.0
+  ],
+  "valuation_fields": false
+}

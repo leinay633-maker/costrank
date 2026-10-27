@@ -1,0 +1,19 @@
+{
+  "weight_cap_mode": "enforce",
+  "universe_size": 1800,
+  "dividend_tax": true,
+  "feature_set": "v04",
+  "label_mode": "neutral_rank",
+  "models": [
+    "ridge",
+    "lightgbm"
+  ],
+  "policies": [
+    "mvo"
+  ],
+  "kappa_scale": 0.25,
+  "slippage_grid_bps": [
+    10.0
+  ],
+  "valuation_fields": false
+}

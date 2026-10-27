@@ -1,0 +1,11 @@
+{
+  "forward_start": "2026-10-19",
+  "model": "lightgbm",
+  "policy": "cost",
+  "refit_every": 126,
+  "slippage_bps": 10.0,
+  "initial_cash": 1000000.0,
+  "resolutions": "/data/costrank/protocol/delisting_resolutions.csv",
+  "reports_weekday": 4,
+  "reference_run": "/data/costrank/runs/v04-final/20261015T040951Z-23d80925fb"
+}

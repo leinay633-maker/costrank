@@ -1,0 +1,14 @@
+{
+  "weight_cap_mode": "enforce",
+  "universe_size": 1800,
+  "dividend_tax": true,
+  "models": [
+    "factor",
+    "ridge",
+    "lightgbm"
+  ],
+  "policies": [
+    "cost"
+  ],
+  "valuation_fields": false
+}

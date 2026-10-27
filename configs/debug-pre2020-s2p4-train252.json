@@ -1,0 +1,16 @@
+{
+  "dev_start": "2017-08-01",
+  "dev_end": "2019-12-31",
+  "train_days": 252,
+  "slippage_grid_bps": [
+    10.0
+  ],
+  "weight_cap_mode": "enforce",
+  "universe_size": 1800,
+  "dividend_tax": true,
+  "policies": [
+    "mvo",
+    "mvo_rank"
+  ],
+  "valuation_fields": false
+}

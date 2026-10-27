@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cost-aware-stock-ranking"
+version = "0.1.0"
+description = "Auditable CPU-only A-share cost-aware cross-sectional research"
+requires-python = ">=3.10,<3.14"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<3", "scipy>=1.12,<2", "scikit-learn>=1.4,<2", "lightgbm>=4.5,<5",
+                "clarabel>=0.11,<0.12", "pyarrow>=18,<27"]
+
+[project.optional-dependencies]
+data = ["baostock>=0.9.4,<0.10"]
+qlib = ["pyqlib>=0.9.6,<0.10"]
+test = ["pytest>=8,<10"]
+report = ["matplotlib>=3.8,<4"]
+
+[project.scripts]
+costrank = "costrank.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

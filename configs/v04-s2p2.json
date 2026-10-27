@@ -1,0 +1,6 @@
+{
+  "weight_cap_mode": "enforce",
+  "universe_size": 1800,
+  "dividend_tax": true,
+  "valuation_fields": false
+}

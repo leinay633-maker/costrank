@@ -1,0 +1,10 @@
+{
+  "weight_cap_mode": "enforce",
+  "universe_size": 1800,
+  "dividend_tax": true,
+  "policies": [
+    "mvo",
+    "mvo_rank"
+  ],
+  "valuation_fields": false
+}
